@@ -9,7 +9,6 @@ char *ft_strcat(char *dest, char *src)
     int i = 0;
     int j = 0;
 
-    
     while (dest[i] != '\0')
         i++;
 
@@ -27,7 +26,7 @@ char *ft_strcat(char *dest, char *src)
 
 int main()
 {
-    char dest[50] = "Ciao, ";
+    char dest[50] = "Ciao,";
     char src[] = "mondo!";
     
     ft_strcat(dest, src);

@@ -18,15 +18,10 @@ char *ft_strncpy (char *dest, char *src, unsigned int number)
         number--;
     }
 
-    
     dest[i] = '\0';
     
     return dest;
     
-    
-    
-    
-
 }
 int main() 
 
@@ -36,7 +31,5 @@ int main()
     int n = 10;
     ft_strncpy (str2, str, n);
     std::cout << ft_strncpy (str2, str, n) << std::endl;
-
-    
 
   };
